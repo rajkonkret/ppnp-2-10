@@ -17,3 +17,4 @@ if __name__ == '__main__':
 # 11:15
 # ctr shift f10 lub prawym
 # ctrl alt l - wyrówna kod do zasad pep8
+# dwa razy shift - podręczne menu wyszukiwania
