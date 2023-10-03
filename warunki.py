@@ -83,3 +83,4 @@ if odp == '966':
     print("Prawidłowa odpowiedź")
 else:
     print("Masz w ksiązce na stronie 23")
+# 13:20
