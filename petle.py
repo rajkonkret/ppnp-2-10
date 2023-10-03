@@ -142,7 +142,7 @@ jezyk = ['python', 'java']
 
 zipped = zip_longest(ludzie, wiek, jezyk, fillvalue='Nan')
 print(type(zipped))  # <class 'itertools.zip_longest'>
-zipped_list = list(zipped)
+zipped_list = list(zipped)  # zamiana na liste
 
 for item in zipped_list:
     print(item)
