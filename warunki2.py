@@ -14,5 +14,5 @@ match lang.lower().replace(" ", ""):
     case _: # wartość domyślna (odpowiednik else)
         print("nie znam takiego działania")
 
-print(lista)
+print(lista)  # ['java']
 # usprawnić program tak aby spacje i duze/małe litery nie mialy znaczenia
