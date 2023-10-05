@@ -30,7 +30,7 @@ def zmien(x):
     return x * 2
 
 
-# map() - zamiany damych wg zaanej funkcji
+# map() - zamiany damych wg zadanej funkcji
 print(f"Zastosowanie map(): {list(map(zmien, lista))}")
 # Zastosowanie map(): [2, 4, 6, 8, 16, 20, 46, 100]
 print(f"Zastosowanie map(): {list(map(lambda x: x * 2, lista))}")
