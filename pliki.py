@@ -20,6 +20,8 @@ with open('test.log', 'w', encoding='utf-8') as file:
 with open('test.log', 'a', encoding='utf-8') as f:
     f.write("dodane\n")
     f.write("dośdane\n")
+    f.write("dośćdane\n")
+    f.write("dośąńdane\n")
 
 with open('test.log', 'r', encoding='utf-8') as file:
     lines = file.read()
