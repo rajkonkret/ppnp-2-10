@@ -15,7 +15,7 @@ dict_x = [
 ]
 
 filename = 'records.csv'
-with open(filename, 'w', encoding='utf-8', newline='') as csv_f:
+with open(filename, 'w', encoding='utf-8', newline='') as csv_f:  # newline='' usuniecie pustych wierszy
     # csvwriter = csv.writer(csv_f)
     # csvwriter.writerow(row)  # zpisanie wiersza z listy
     csvwriter = csv.DictWriter(csv_f, fieldnames=fields, delimiter=";")

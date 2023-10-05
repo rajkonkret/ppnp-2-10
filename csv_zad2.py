@@ -27,3 +27,9 @@ print(rows)
 # ['name', 'branch', 'year', 'cgpa']
 # [['radek', 'coe', '3', '9.10'], ['Tomek', 'cos', '2', '9.0'], ['Kasia', 'cor', '1', '9']]
 # 11:20
+suma = 0
+for i in rows:
+    number = float(i[-1])
+    suma += number
+
+print(f"Średnia wynosi {suma / len(rows)}")  # Średnia wynosi 9.033333333333333
