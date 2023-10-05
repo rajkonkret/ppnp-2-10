@@ -32,3 +32,4 @@ print(data.items())
 # dict_values([40, None, 'Radek'])
 # dict_items([('age', 40), ('czy_pali', None), ('name', 'Radek')])
 print(data['name'])  # Radek
+# 14:23
