@@ -18,7 +18,7 @@ filename = 'records.csv'
 with open(filename, 'w', encoding='utf-8', newline='') as csv_f:
     # csvwriter = csv.writer(csv_f)
     # csvwriter.writerow(row)  # zpisanie wiersza z listy
-    csvwriter = csv.DictWriter(csv_f, fieldnames=fields)
+    csvwriter = csv.DictWriter(csv_f, fieldnames=fields, delimiter=";")
     csvwriter.writeheader()  # zapisanie nazw kolumn
     # csvwriter.writerow(dict2)  # zapisanie wiersza ze słownika
     csvwriter.writerows(dict_x)
