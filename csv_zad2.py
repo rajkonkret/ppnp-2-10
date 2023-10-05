@@ -26,3 +26,4 @@ print(rows)
 # [['radek;coe;3;9.10'], ['Tomek;cos;2;9.0'], ['Kasia;cor;1;9']]
 # ['name', 'branch', 'year', 'cgpa']
 # [['radek', 'coe', '3', '9.10'], ['Tomek', 'cos', '2', '9.0'], ['Kasia', 'cor', '1', '9']]
+# 11:20
