@@ -5,3 +5,6 @@ print(pakiet)  # <module 'pakiet' from 'C:\\Users\\CSComarch\\PycharmProjects\\p
 fun.powitanie()
 fun.pozegnanie()
 pakiet.pozegnanie()
+#
+# pip freeze > requinments.txt
+# pip install -r .\requinments.txt
