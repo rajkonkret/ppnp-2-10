@@ -8,3 +8,5 @@ pakiet.pozegnanie()
 #
 # pip freeze > requinments.txt
 # pip install -r .\requinments.txt
+# pip install pyinstaller
+# pyinstaller.exe .\tkinter1.py
