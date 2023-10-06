@@ -36,5 +36,3 @@ car1.hamuj()
 car1.licznik()  # Prędkość wynosi: 0 km/h
 car1.__predkosc = 100  # nie robimy tak
 car1.licznik()  # Prędkość wynosi: 100 km/h, Prędkość wynosi: 0 km/h - po zmianie na pole prywatne
-
-
