@@ -34,4 +34,4 @@ print(base_path.absolute())
 print(base_path2.absolute())
 # C:\Users\CSComarch\PycharmProjects\ppnp-2-10\ops_example
 # C:\Users\CSComarch\PycharmProjects\ppnp-2-10\ops_example\D
-# 14:34
+# 14:44
