@@ -39,6 +39,7 @@ class Orzel(Ptak):
     """
     Orzel
     """
+
     def wydaj_odglos(self):
         print(f"piiiiiiiii")
 
